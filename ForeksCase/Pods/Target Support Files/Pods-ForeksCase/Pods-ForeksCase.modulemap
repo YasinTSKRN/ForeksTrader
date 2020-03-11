@@ -1,0 +1,6 @@
+framework module Pods_ForeksCase {
+  umbrella header "Pods-ForeksCase-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,29 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		238BE50CD4446790BD2F5E03 /* Pods_ForeksCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61687E1FC10B7C8F4281CA26 /* Pods_ForeksCase.framework */; };
 		84F767F52418F2AB004813F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F767F42418F2AB004813F1 /* AppDelegate.swift */; };
 		84F767F72418F2AB004813F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F767F62418F2AB004813F1 /* SceneDelegate.swift */; };
-		84F767F92418F2AB004813F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F767F82418F2AB004813F1 /* ViewController.swift */; };
+		84F767F92418F2AB004813F1 /* SymbolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F767F82418F2AB004813F1 /* SymbolsViewController.swift */; };
 		84F767FC2418F2AB004813F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F767FA2418F2AB004813F1 /* Main.storyboard */; };
 		84F767FF2418F2AB004813F1 /* ForeksCase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84F767FD2418F2AB004813F1 /* ForeksCase.xcdatamodeld */; };
 		84F768012418F2AD004813F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F768002418F2AD004813F1 /* Assets.xcassets */; };
 		84F768042418F2AD004813F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F768022418F2AD004813F1 /* LaunchScreen.storyboard */; };
+		84F76831241901DA004813F1 /* SymbolsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F76830241901DA004813F1 /* SymbolsViewModel.swift */; };
+		84F7683424190537004813F1 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7683324190537004813F1 /* DataProvider.swift */; };
+		84F76839241905DA004813F1 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F76838241905DA004813F1 /* Symbol.swift */; };
+		84F7683C241910F1004813F1 /* SymbolList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7683B241910F1004813F1 /* SymbolList.swift */; };
+		84F7683E24191CA9004813F1 /* SymbolDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7683D24191CA9004813F1 /* SymbolDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61687E1FC10B7C8F4281CA26 /* Pods_ForeksCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForeksCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		817F426B6584108C5B882AF3 /* Pods-ForeksCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForeksCase.release.xcconfig"; path = "Target Support Files/Pods-ForeksCase/Pods-ForeksCase.release.xcconfig"; sourceTree = "<group>"; };
 		84F767F12418F2AB004813F1 /* ForeksCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForeksCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F767F42418F2AB004813F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84F767F62418F2AB004813F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84F767F82418F2AB004813F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84F767F82418F2AB004813F1 /* SymbolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsViewController.swift; sourceTree = "<group>"; };
 		84F767FB2418F2AB004813F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84F767FE2418F2AB004813F1 /* ForeksCase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ForeksCase.xcdatamodel; sourceTree = "<group>"; };
 		84F768002418F2AD004813F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F768032418F2AD004813F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84F768052418F2AD004813F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F76830241901DA004813F1 /* SymbolsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsViewModel.swift; sourceTree = "<group>"; };
+		84F7683324190537004813F1 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		84F76838241905DA004813F1 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+		84F7683B241910F1004813F1 /* SymbolList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolList.swift; sourceTree = "<group>"; };
+		84F7683D24191CA9004813F1 /* SymbolDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolDetail.swift; sourceTree = "<group>"; };
+		ACD08417C959FB5EB2F4D9F3 /* Pods-ForeksCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForeksCase.debug.xcconfig"; path = "Target Support Files/Pods-ForeksCase/Pods-ForeksCase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238BE50CD4446790BD2F5E03 /* Pods_ForeksCase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		530BB91343DC6ECDB47145F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACD08417C959FB5EB2F4D9F3 /* Pods-ForeksCase.debug.xcconfig */,
+				817F426B6584108C5B882AF3 /* Pods-ForeksCase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		84F767E82418F2AB004813F1 = {
 			isa = PBXGroup;
 			children = (
 				84F767F32418F2AB004813F1 /* ForeksCase */,
 				84F767F22418F2AB004813F1 /* Products */,
+				530BB91343DC6ECDB47145F4 /* Pods */,
+				F07E2ED7E07ED871BAD5C634 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +84,12 @@
 		84F767F32418F2AB004813F1 /* ForeksCase */ = {
 			isa = PBXGroup;
 			children = (
+				84F76837241905A0004813F1 /* Models */,
+				84F7683224190521004813F1 /* Network */,
+				84F7682F24190187004813F1 /* ViewModel */,
+				84F7682E24190174004813F1 /* Controller */,
 				84F767F42418F2AB004813F1 /* AppDelegate.swift */,
 				84F767F62418F2AB004813F1 /* SceneDelegate.swift */,
-				84F767F82418F2AB004813F1 /* ViewController.swift */,
 				84F767FA2418F2AB004813F1 /* Main.storyboard */,
 				84F768002418F2AD004813F1 /* Assets.xcassets */,
 				84F768022418F2AD004813F1 /* LaunchScreen.storyboard */,
@@ -70,6 +99,56 @@
 			path = ForeksCase;
 			sourceTree = "<group>";
 		};
+		84F7682E24190174004813F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84F767F82418F2AB004813F1 /* SymbolsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84F7682F24190187004813F1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84F76830241901DA004813F1 /* SymbolsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84F7683224190521004813F1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				84F7683324190537004813F1 /* DataProvider.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		84F76837241905A0004813F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84F7683A241910C9004813F1 /* Response */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84F7683A241910C9004813F1 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				84F76838241905DA004813F1 /* Symbol.swift */,
+				84F7683B241910F1004813F1 /* SymbolList.swift */,
+				84F7683D24191CA9004813F1 /* SymbolDetail.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		F07E2ED7E07ED871BAD5C634 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61687E1FC10B7C8F4281CA26 /* Pods_ForeksCase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84F768082418F2AD004813F1 /* Build configuration list for PBXNativeTarget "ForeksCase" */;
 			buildPhases = (
+				B5354AFE2E7B3FFD4207FBC6 /* [CP] Check Pods Manifest.lock */,
 				84F767ED2418F2AB004813F1 /* Sources */,
 				84F767EE2418F2AB004813F1 /* Frameworks */,
 				84F767EF2418F2AB004813F1 /* Resources */,
+				E3AF9CCAD8A8193714B0D39F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +217,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B5354AFE2E7B3FFD4207FBC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ForeksCase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3AF9CCAD8A8193714B0D39F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForeksCase/Pods-ForeksCase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForeksCase/Pods-ForeksCase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ForeksCase/Pods-ForeksCase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84F767ED2418F2AB004813F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F767F92418F2AB004813F1 /* ViewController.swift in Sources */,
+				84F7683424190537004813F1 /* DataProvider.swift in Sources */,
+				84F7683E24191CA9004813F1 /* SymbolDetail.swift in Sources */,
+				84F767F92418F2AB004813F1 /* SymbolsViewController.swift in Sources */,
 				84F767FF2418F2AB004813F1 /* ForeksCase.xcdatamodeld in Sources */,
 				84F767F52418F2AB004813F1 /* AppDelegate.swift in Sources */,
+				84F76839241905DA004813F1 /* Symbol.swift in Sources */,
+				84F7683C241910F1004813F1 /* SymbolList.swift in Sources */,
 				84F767F72418F2AB004813F1 /* SceneDelegate.swift in Sources */,
+				84F76831241901DA004813F1 /* SymbolsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +414,7 @@
 		};
 		84F768092418F2AD004813F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD08417C959FB5EB2F4D9F3 /* Pods-ForeksCase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +433,7 @@
 		};
 		84F7680A2418F2AD004813F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817F426B6584108C5B882AF3 /* Pods-ForeksCase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

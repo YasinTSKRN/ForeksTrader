@@ -8,11 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SymbolsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let provider = DataProvider()
+        provider.fetchSymbolDetails(symbolIDs: ["GARAN.E.BIST", "XU100.I.BIST"], detailIDs: ["pdd", "las"]) { [unowned self] (result) in
+            print(result)
+        }
     }
 
 
