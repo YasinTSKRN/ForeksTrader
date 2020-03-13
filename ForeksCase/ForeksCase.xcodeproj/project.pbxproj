@@ -21,6 +21,7 @@
 		84F7683C241910F1004813F1 /* SymbolList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7683B241910F1004813F1 /* SymbolList.swift */; };
 		84F7683E24191CA9004813F1 /* SymbolDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7683D24191CA9004813F1 /* SymbolDetail.swift */; };
 		84F76841241947E0004813F1 /* SymbolDataCarrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F76840241947E0004813F1 /* SymbolDataCarrier.swift */; };
+		84F76844241A7777004813F1 /* SymbolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F76843241A7777004813F1 /* SymbolCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		84F7683B241910F1004813F1 /* SymbolList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolList.swift; sourceTree = "<group>"; };
 		84F7683D24191CA9004813F1 /* SymbolDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolDetail.swift; sourceTree = "<group>"; };
 		84F76840241947E0004813F1 /* SymbolDataCarrier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolDataCarrier.swift; sourceTree = "<group>"; };
+		84F76843241A7777004813F1 /* SymbolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolCell.swift; sourceTree = "<group>"; };
 		ACD08417C959FB5EB2F4D9F3 /* Pods-ForeksCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForeksCase.debug.xcconfig"; path = "Target Support Files/Pods-ForeksCase/Pods-ForeksCase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 		84F767F32418F2AB004813F1 /* ForeksCase */ = {
 			isa = PBXGroup;
 			children = (
+				84F76842241A7761004813F1 /* Cells */,
 				84F76837241905A0004813F1 /* Models */,
 				84F7683224190521004813F1 /* Network */,
 				84F7682F24190187004813F1 /* ViewModel */,
@@ -150,6 +153,14 @@
 				84F76840241947E0004813F1 /* SymbolDataCarrier.swift */,
 			);
 			path = DataCarrier;
+			sourceTree = "<group>";
+		};
+		84F76842241A7761004813F1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84F76843241A7777004813F1 /* SymbolCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		F07E2ED7E07ED871BAD5C634 /* Frameworks */ = {
@@ -285,6 +296,7 @@
 				84F767F72418F2AB004813F1 /* SceneDelegate.swift in Sources */,
 				84F76841241947E0004813F1 /* SymbolDataCarrier.swift in Sources */,
 				84F76831241901DA004813F1 /* SymbolsViewModel.swift in Sources */,
+				84F76844241A7777004813F1 /* SymbolCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

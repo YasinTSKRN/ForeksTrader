@@ -18,6 +18,11 @@ private enum ConstantKeys: String {
 
 protocol SymbolsViewModelProtocol {
     func updateData(leftKey: String?, rightKey: String?, completion: (() -> ())?)
+    func numberOfSymbols() -> Int
+    func dataCarrierAtIndex(atIndex: Int) -> SymbolDataCarrier
+    func selectedKeys() -> (String, String)
+    func keyList() -> [PageDetail]
+    func nameOfKey(key: String) -> String
 }
 
 class SymbolsViewModel: NSObject, SymbolsViewModelProtocol {
@@ -68,8 +73,6 @@ class SymbolsViewModel: NSObject, SymbolsViewModelProtocol {
         let carrierData = self.castDataCarrier(data: newData.symbolDetails)
         self.currentData.removeAll()
         self.currentData.append(contentsOf: carrierData)
-        print("##### - Currently:")
-        print(self.currentData)
     }
     
     private func castDataCarrier(data: [SymbolDetailItem]) -> [SymbolDataCarrier] {
@@ -128,5 +131,25 @@ class SymbolsViewModel: NSObject, SymbolsViewModelProtocol {
         default:
             return SymbolRiseState.noChange
         }
+    }
+    
+    func numberOfSymbols() -> Int {
+        return self.currentData.count
+    }
+    
+    func dataCarrierAtIndex(atIndex: Int) -> SymbolDataCarrier {
+        return self.currentData[atIndex]
+    }
+    
+    func selectedKeys() -> (String, String) {
+        return (self.leftKey, self.rightKey)
+    }
+    
+    func keyList() -> [PageDetail] {
+        return self.options
+    }
+    
+    func nameOfKey(key: String) -> String {
+        return self.options.first(where: {$0.key == key})?.name ?? "-"
     }
 }
